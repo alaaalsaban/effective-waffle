@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Create team sync issue
-        uses: imjohnbo/issue-bot@leatest
+        uses: imjohnbo/issue-bot@v3.4.4
         #@3daae12aa54d38685d7ff8459fc8a2aee8cea98b
         with:
           assignees: "alaaalsaban"
