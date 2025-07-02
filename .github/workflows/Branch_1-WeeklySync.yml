@@ -5,6 +5,7 @@
 
 name: Branch_1-Weekly Team Sync
 on:
+  workflow_dispatch:
 #   schedule:
 #     - cron: 20 07 * * 1
 
