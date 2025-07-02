@@ -1,0 +1,16 @@
+name: Alaa_Check Markdown links
+
+# Schedule makes more sense, will confiugre manual trigger for demo purposes
+on: 
+  workflow_dispatch:
+
+jobs:
+  markdown-link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          use-verbose-mode: "yes"
+          folder-path: "docs/markdown_files"
+          max-depth: 2
