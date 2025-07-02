@@ -31,7 +31,7 @@ jobs:
             ### Discussion Points
             Add things to discuss below
 
-          pinned: true
-          close-previous: false
+          pinned: false
+          close-previous: True
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
