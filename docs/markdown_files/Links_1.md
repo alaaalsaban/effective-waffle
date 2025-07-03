@@ -3,6 +3,6 @@
 [link](https://github.com/actions/checkout)
 [link](https://docs.github.com/en/actions/reference/events-that-trigger-workflows#push)
 [link](https://ine.com/)
-[Link](google.com)
+[Link](https://google.com)
 [Link](https://www.google.com/)
-[link](ine.com)
+[link](https://ine.com)
